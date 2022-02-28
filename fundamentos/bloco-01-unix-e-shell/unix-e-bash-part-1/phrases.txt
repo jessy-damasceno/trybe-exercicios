@@ -1,0 +1,4 @@
+     1	 As frases do dia da invasão da Ucrânia: “É uma catástrofe para o nosso continente” 
+     1	Se você quiser numerar as linhas de um arquivo com o comando cat, use cat -n
+     2	O comando nl (numerar linhas) é utilizado para numerar as linhas de um arquivo.
+     3	O comando 'cp' é usado para copiar diretórios ou arquivos. Confira algumas opções mais usadas: -d: Mantém os links ao copiar. -p: Copia todas as informações dos atributos dos arquivos e diretórios, bem como dono, permissão, grupo, etc.

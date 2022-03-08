@@ -4,7 +4,7 @@ let menor = numbers[0];
 
 for (let i = 0; i < numbers.length; i+= 1) {
     if (menor > numbers[i]) {
-        maior = numbers[i];
+        menor = numbers[i];
     }
 }
 

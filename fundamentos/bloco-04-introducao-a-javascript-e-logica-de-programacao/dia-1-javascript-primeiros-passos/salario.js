@@ -18,7 +18,7 @@ if (salarioBruto <= 1556.95) {
     aliquotaINSS = 570.88;
 }
 
-// <----- Salário BASE ----->
+// <----- CÁLCULO DO SALÁRIO BASE ----->
 
 const salarioBase = salarioBruto - aliquotaINSS;
 

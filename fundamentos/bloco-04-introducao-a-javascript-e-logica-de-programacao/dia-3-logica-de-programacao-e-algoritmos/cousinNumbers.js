@@ -10,9 +10,11 @@ for (let i = 0; i <= NumQtd; i++) {
 }
 
 console.log(array);
+
 // <----- RETURN MAIOR NÚMERO PRIMO ----->
-let count = 0;
+
 let cousin = 0;
+let cousinArray = [];
 
 for (let i = array[array.length-1]; i > 1; i -= 1) {
     for (let j = 2; j < array.length -1; j +=1) {

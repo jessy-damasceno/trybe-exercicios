@@ -5,23 +5,31 @@
 let array = [];
 let NumQtd = 50;
 
-for (let i = 0; i <= NumQtd; i++) {
-    array.push(i);  
+for (let i = 1; i <= NumQtd; i++) {
+    array.push(Math.floor(Math.random()*1000));
 }
 
 console.log(array);
 
-// <----- RETURN MAIOR NÚMERO PRIMO ----->
+// <----- RETURN PRIMOS E MAIOR NÚMERO PRIMO ----->
 
-let cousin = 0;
-let cousinArray = [];
+let cousinNumbers = [];
+let maiorPrimo = 0;
 
-for (let i = array[array.length-1]; i > 1; i -= 1) {
-    for (let j = 2; j < array.length -1; j +=1) {
-        if (array[i] % j === 0){
-            count += 1;
-        }
-        console.log('array[i]:',array[i] + ' j:', j + ' contador:',count);
+for (let i = 0; i < array.length -1; i += 1) {
+    let count = 0;
+    // console.log(array[i]);
+    for (let j = 1; j <= array[i]; j +=1) {
+       if (array[i] % j == 0) {
+           count ++;
+       }
     }
+    if (count == 2) {
+        cousinNumbers.push(array[i]); }
 
+    if (count == 2 && maiorPrimo < array[i])
+        maiorPrimo = array[i];
 }
+
+console.log(cousinNumbers);
+console.log("Maior Primo: " + maiorPrimo);

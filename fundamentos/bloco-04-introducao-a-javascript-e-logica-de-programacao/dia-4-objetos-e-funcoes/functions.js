@@ -17,14 +17,43 @@ console.log(ifPalindromo("ananana"));
 function indiceDoMaiorValor(array) {
   let maior = 0;
 
-  for (i = 0; i < array.length -1; i += 1) {
+  for (i = 0; i < array.length - 1; i += 1) {
     if (array[i] > array[maior]) {
       maior = i;
     }
   }
-  
+
   return maior;
 }
 
 console.log(indiceDoMaiorValor([2000, 3000, 6, 200, 10, 1]));
 
+// 3 - Crie uma função que receba um array de inteiros e retorne o índice do menor valor.
+
+function indiceDoMenorValor(array) {
+  let menor = 0;
+
+  for (i in array) {
+    if (array[menor] > array[i]) {
+      menor = i;
+    }
+  }
+  return menor;
+}
+
+console.log(indiceDoMenorValor([2, 4, 6, -70000000, -10000, 0, -300]));
+
+// 4 - Crie uma função que receba um array de nomes e retorne o nome com a maior quantidade de caracteres.
+
+function nomeMaiorCaracteres(nomes) {
+  let maiorPalavra = nomes[0];
+  
+  for (i in nomes) {
+    if (nomes[i].length > maiorPalavra.length) {
+      maiorPalavra = nomes[i];
+  }
+}
+  return maiorPalavra;
+}
+
+console.log(nomeMaiorCaracteres(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));

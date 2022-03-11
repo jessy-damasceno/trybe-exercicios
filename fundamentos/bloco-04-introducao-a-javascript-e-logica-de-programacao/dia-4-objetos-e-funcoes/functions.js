@@ -11,3 +11,20 @@ function ifPalindromo(word) {
 }
 
 console.log(ifPalindromo("ananana"));
+
+// 2 - Crie uma função que receba um array de inteiros e retorne o índice do maior valor.
+
+function indiceDoMaiorValor(array) {
+  let maior = 0;
+
+  for (i = 0; i < array.length -1; i += 1) {
+    if (array[i] > array[maior]) {
+      maior = i;
+    }
+  }
+  
+  return maior;
+}
+
+console.log(indiceDoMaiorValor([2000, 3000, 6, 200, 10, 1]));
+

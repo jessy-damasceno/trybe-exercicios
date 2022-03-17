@@ -121,18 +121,19 @@ function newTaskDiv(color) {
 
 newTaskDiv("rgb(226, 73, 101)");
 
-function taskSelected() {
-  let tasks = document.getElementsByClassName("task");
-  let selectedTasks = document.getElementsByClassName('task selected');
+function setTaskClass() {
+  let selectedTask = document.getElementsByClassName('task selected');
+  let myTasks = document.querySelector('.task');
+  console.log(selectedTask);
+  console.log(myTasks);
 
-  tasks.addEventListener("click", function (event) {
-      if (selectedTasks.length === 0) {
-        event.target.classList = 'task selected'
-      } else {
-        event.target.classList = 'task';
-      }
+  myTasks.addEventListener('click', function(event) {
+    if (selectedTask.length === 0) {
+      event.target.className = 'task selected';
+    } else {
+      event.target.className = 'task';
     }
-  );
-}
+  });
+};
 
-taskSelected();
+setTaskClass();

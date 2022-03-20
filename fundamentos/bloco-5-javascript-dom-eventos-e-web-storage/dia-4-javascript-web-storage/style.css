@@ -141,6 +141,7 @@ header .image-text .header-text {
     padding: 40px;
     padding-bottom: 10px;
     justify-content: space-between;
+    transition: all 0.5s ease;
 }
 
 .Icon {
@@ -167,4 +168,11 @@ header .image-text .header-text {
     display: flex;
     overflow: hidden;
     transition: var(--tran-05);
+}
+
+.footIcons.close {
+    flex-direction: column;
+    opacity: 70%;
+    transition: all 0.5s ease-in;
+    margin: 17px;
 }

@@ -8,4 +8,3 @@ seta.addEventListener('click', () => {
     sideBar.classList.toggle('close');
     icons.classList.toggle('close');
 })
-

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <header>
+        <h1>Header da página</h1>
+    </header>
+    <main>
+        <form action="" method="get">
+            <div class="container">
+                <div class="form-div">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div class="form-div">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-div">
+                    <fieldset>
+                        <legend>Destino Preferido:</legend>
+                        <label for="destino">
+                            <input type="radio" name="destino" id="destino" value="cidade">
+                            Cidade
+                        </label>
+                        <label for="campo">
+                            <input type="radio" name="destino" id="campo" value="campo">
+                            Campo
+                        </label>
+                        <label for="praia">
+                            <input type="radio" name="destino" id="praia" value="praia">
+                            Praia
+                        </label>
+                        <label for="montanhas">
+                            <input type="radio" name="destino" id="montanhas" value="montanhas">
+                            Montanhas
+                        </label>
+                </div>
+                </fieldset>
+                <div class="form-div">
+                    <label for="resumo">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso
+                        TrybeTrip?</label>
+                    <textarea name="resumo" id="resumo" cols="60" rows="10" maxlength="500">
+                    </textarea>
+                    <legend>Limite de 500 caracteres.</legend>
+                </div>
+                <div class="form-div">
+                    <label for="data-viagem">
+                        Qual a melhor data para realizar sua viagem?
+                    </label>
+                    <input type="date" name="data-viagem" id="data-viagem">
+                </div>
+            </div>
+            <div class="outras-informacoes">
+                <div class="outras-informacoes-principal">
+                    <div>
+                        <label for="receber-noticias">
+                            <input type="checkbox" name="receber-noticias" id="receber-noticias">
+                            Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+                        </label>
+                    </div>
+                    <div>
+                        <label for="uso-de-imagens">
+                            <input type="checkbox" name="uso-de-imagens" id="uso-de-imagens">
+                            Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+                        </label>
+                    </div>
+                </div>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>

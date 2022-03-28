@@ -1,0 +1,61 @@
+/* <!-- 1 - Estilize as divs para que, ao passar o cursor por cima das mesmas, elas ganhem uma borda.
+2 - Faça cada div ter uma cor própria.
+3 - Estilize cada uma das tags h3 .
+4 - Faça a terceira div ser maior que as demais.
+5 - Deixe as tags ímpares h3 com o texto em itálico. --> */
+
+div:hover {
+    border: 2px solid black;
+}
+
+div:nth-of-type(1) {
+    background-color: red;
+}
+
+div:nth-of-type(2) {
+    background-color: green;
+}
+
+div:nth-of-type(3) {
+    background-color: blue;
+    height: 60px;
+}
+
+div:nth-of-type(4) {
+    background-color: rosybrown;
+}
+
+div:nth-of-type(5) {
+    background-color: yellowgreen;
+}
+
+div:nth-of-type(1) > h3 {
+    color: white;
+}
+
+/* h3:nth-of-type(1) {
+    color: white;
+} */
+
+div:nth-of-type(2) > h3 {
+    color: rgb(255, 238, 0);
+}
+
+div:nth-of-type(3) > h3 {
+    color: rgb(105, 194, 194);
+    font-style: italic;
+}
+
+div:nth-of-type(4) > h3 {
+    color: black;
+    text-decoration: underline;
+}
+
+div:nth-of-type(5) > h3 {
+    color: rgb(236, 240, 240);
+    text-transform:uppercase;    
+}
+
+div:nth-child(odd) h3 {
+    font-style: italic;
+}

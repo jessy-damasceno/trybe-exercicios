@@ -1,0 +1,83 @@
+html {
+  box-sizing: border-box;
+  font-size: 14px;
+  background-color: rgb(224, 155, 105);
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px;
+  /* width: 80vw; */
+  margin: auto;
+}
+
+header nav {
+  width: 50%;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+aside li {
+  font-style: italic;
+  letter-spacing: 1.4px;
+}
+
+footer {
+  font-style: italic;
+  text-align: justify;
+  width: 85vw;
+  margin: auto;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-style: normal;
+  font-weight: 1000;
+  color: rgb(37, 36, 36);
+}
+
+#pamonha {
+  text-align: center;
+}
+
+article p {
+  text-align: justify;
+  width: 80vw;
+  margin: auto;
+  margin-bottom: 12px;
+}
+
+h1 {
+  font-size: 1.7rem;
+  padding: 16px;
+}
+
+h2 {
+  font-size: 1.3rem;
+  text-align: left;
+  margin-left: 16px;
+}
+
+h3 {
+  font-size: 1.0rem;
+}
+
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 20px;
+  }
+}

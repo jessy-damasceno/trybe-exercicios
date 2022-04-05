@@ -55,7 +55,7 @@ console.log(allLessons);
 // }
 
 // const totalStudents = (obj) =>
-//   Object.keys(obj).reduce((acc, cur) => acc + obj[cur].numeroEstudantes, inicial);
+//   Object.keys(obj).reduce((acc, cur) => acc + obj[cur].numeroEstudantes, 0);
 
 // console.log(totalStudents(allLessons));
 

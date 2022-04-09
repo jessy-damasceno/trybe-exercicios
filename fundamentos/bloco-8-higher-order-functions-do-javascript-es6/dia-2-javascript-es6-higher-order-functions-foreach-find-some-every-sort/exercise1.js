@@ -63,11 +63,13 @@ const books = [
 
 // Adicione o código do exercício aqui:
 
+
 // 1 - Encontre o nome da primeira pessoa autora do livro nascida no ano de 1947.
 
 // const firstBirth1947 = books.find((obj) => obj.author.birthYear === 1947);
 
 // console.log(firstBirth1947.author.name);
+
 
 // 2 - Retorne o nome do livro de menor nome.
 
@@ -81,12 +83,14 @@ const smallerName = () => {
 
 console.log(smallerName());
 
+
 // 3 - Encontre o primeiro livro cujo nome possui 26 caracteres.
 
 const getNamedBook = (array) =>
   array.find((element) => element.name.length === 26);
 
 // console.log(getNamedBook(books));
+
 
 // 4 - Ordene os livros por data de lançamento em ordem decrescente.
 
@@ -98,4 +102,39 @@ const sortedBooks = booksOrderedByReleaseYearDesc(books);
 // console.log(sortedBooks);
 sortedBooks.forEach((element) => console.log(element.releaseYear));
 
-// 5 - Faça uma função que retorne true , se todas as pessoas autoras nasceram no século XX, ou false , caso contrário.
+
+// 5 - Faça uma função que retorne true , se todas as pessoas autoras nasceram no século XX, ou false , caso contrário. séc. XX ... entre 1901 a 2000
+
+const everyoneWasBornOnSecXX = () =>
+  books.every(
+    (element) =>
+      element.author.birthYear >= 1901 || element.author.birthYear <= 2000
+  );
+
+const every =
+  everyoneWasBornOnSecXX() === false
+    ? `Nem todas as pessoas autoras nasceram no século XX.`
+    : `Todas as pessoas autoras nasceram no século XX.`;
+
+console.log(every);
+
+
+// 6 - Faça uma função que retorne true , se algum livro foi lançado na década de 80, e false , caso contrário.
+
+const someBookWasReleaseOnThe80s = () =>
+  books.some(
+    (element) => element.releaseYear >= 1980 || element.releaseYear <= 1989
+  ) === true
+    ? `Algum livro foi lançado na década de 80.`
+    : `Nenhum livro foi lançado na década de 80.`;
+
+console.log(someBookWasReleaseOnThe80s());
+
+// 7 - Faça uma função que retorne true , caso nenhum author tenha nascido no mesmo ano, e false , caso contrário.
+
+const authorUnique = () => {
+  const birthYear = 1947;
+  return !books.every((element) => element.author.birthYear === birthYear);
+}
+
+console.log(authorUnique());

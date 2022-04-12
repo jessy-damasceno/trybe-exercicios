@@ -15,7 +15,7 @@ const books = [
     genre: 'Fantasia',
     author: {
       name: 'J. R. R. Tolkien',
-      birthYear: 1892,
+      birthYear: 1998,
     },
     releaseYear: 1954,
   },
@@ -35,7 +35,7 @@ const books = [
     genre: 'Ficção Científica',
     author: {
       name: 'Frank Herbert',
-      birthYear: 1920,
+      birthYear: 1820,
     },
     releaseYear: 1965,
   },
@@ -126,12 +126,11 @@ console.log(someBookWasReleaseOnThe80s());
 
 // 7 - Faça uma função que retorne true , caso nenhum author tenha nascido no mesmo ano, e false , caso contrário.
 
-const authorUnique = () => {
-  return books.every((element) =>
-    books.some((elementSome) => 
-    (element.author.birthYear === elementSome.author.birthYear) && (element.author.name !== elementSome.author.name)
-    )
-  );
-};
+function authorUnique() {
+  return books.every((book) =>
+    !books.some((bookSome) =>
+      (bookSome.author.birthYear === book.author.birthYear)
+      && (bookSome.author.name !== book.author.name)));
+}
 
 console.log(authorUnique());

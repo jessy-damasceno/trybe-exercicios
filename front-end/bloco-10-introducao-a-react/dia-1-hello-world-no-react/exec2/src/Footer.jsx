@@ -1,0 +1,1 @@
+export const Footer = () => <h1>E isso é só o começo...</h1>

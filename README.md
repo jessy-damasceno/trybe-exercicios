@@ -1,6 +1,6 @@
 # Trybe
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Rafael Rocha Souza](https://www.linkedin.com/in/rafael-rhocha/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Jessy Damasceno](https://www.linkedin.com/in/jessy-damasceno/)_ enquanto estuda na [Trybe](https://www.betrybe.com/) :rocket:
 
 _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
 
@@ -80,7 +80,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 10: Jest
 
 - [X] 10-1: _Primeiros passos no Jest_
-- [X] 10-2: _Jest - Testes Assâ­ncronos_
+- [X] 10-2: _Jest - Testes Assíncronos_
 - [X] 10-3: _Jest - Simulando comportamentos_
 - [X] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_
 
@@ -122,7 +122,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 16-2: _React com Redux - Parte 1_
 - [X] 16-3: _React com Redux - Prática_
 - [X] 16-4: _React com Redux - Parte 2_
-- [X] 16-5: _Testes sí­ncronos com React-Redux_
+- [X] 16-5: _Testes síncronos com React-Redux_
 - [X] 16-6: _[Projeto - Tabela com filtros de dados]()_
 
 ##### Bloco 17: Projeto React
@@ -154,58 +154,58 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [X] 21-1: _Funções mais usadas no SQL_
 - [X] 21-2: _Descomplicando JOINs e UNIONs_
-- [X] 21-3: _Stored Routines & Subqueries_
-- [X] 21-4: _[Projeto - Vocabulary Booster]()_
+- [] 21-3: _Stored Routines & Subqueries_
+- [] 21-4: _[Projeto - Vocabulary Booster]()_
 
 ##### Bloco 22: Bancos de dados relacionais
 
-- [X] 22-1: _Transformando ideias em um modelo de banco de dados_
-- [X] 22-2: _Normalização, Formas Normais e Dumps_
-- [X] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [X] 22-3: _[Projeto - One For All]()_
+- [] 22-1: _Transformando ideias em um modelo de banco de dados_
+- [] 22-2: _Normalização, Formas Normais e Dumps_
+- [] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
+- [] 22-3: _[Projeto - One For All]()_
 
 ##### Bloco 23: Introdução - NoSQL
 
-- [X] 23-1: _MongoDB - Introdução_
-- [X] 23-2: _Filter Operators_
-- [X] 23-3: _[Projeto - Data Flights]()_
+- [] 23-1: _MongoDB - Introdução_
+- [] 23-2: _Filter Operators_
+- [] 23-3: _[Projeto - Data Flights]()_
 
 ##### Bloco 24: Updates
 
-- [X] 24-1: _Updates Simples_
-- [X] 24-2: _Updates Complexos - Arrays - Parte 1_
-- [X] 24-3: _Updates Complexos - Arrays - Parte 2_
-- [X] 24-4: _[Projeto - Commerce]()_
+- [] 24-1: _Updates Simples_
+- [] 24-2: _Updates Complexos - Arrays - Parte 1_
+- [] 24-3: _Updates Complexos - Arrays - Parte 2_
+- [] 24-4: _[Projeto - Commerce]()_
 
 ##### Bloco 25: Aggregation Framework
 
-- [X] 25-1: _Aggregation Framework - Part 1_
-- [X] 25-2: _Aggregation Framework - Part 2_
-- [X] 25-3: _[Projeto - Aggregations]()_
+- [] 25-1: _Aggregation Framework - Part 1_
+- [] 25-2: _Aggregation Framework - Part 2_
+- [] 25-3: _[Projeto - Aggregations]()_
 
 ##### Bloco 26: Intro - NodeJS
 
-- [X] 26-1: _NodeJS - Introdução_
-- [X] 26-2: _NodeJS - Fluxo Assí­ncrono_
-- [X] 26-3: _NodeJS - Arquitetura_
-- [X] 26-4: _[Projeto - A CLI of Ice and Fire]()_
+- [] 26-1: _NodeJS - Introdução_
+- [] 26-2: _NodeJS - Fluxo Assíncrono_
+- [] 26-3: _NodeJS - Arquitetura_
+- [] 26-4: _[Projeto - A CLI of Ice and Fire]()_
 
 ##### Bloco 27: NodeJS
 
-- [X] 27-1: _Express: HTTP com Node.js_
-- [X] 27-2: _Arquitetura de Software - Introdução ao MVC_
-- [X] 27-3: _[Projeto - Cookmaster]()_
+- [] 27-1: _Express: HTTP com Node.js_
+- [] 27-2: _Arquitetura de Software - Introdução ao MVC_
+- [] 27-3: _[Projeto - Cookmaster]()_
 
 ##### Bloco 28: NodeJS
 
-- [X] 28-1: _Arquitetura de Software - Camada de Serviço_
-- [X] 28-2: _Arquitetura web - Rest e Restful_
-- [X] 28-3: _[Projeto - Store Manager]()_
+- [] 28-1: _Arquitetura de Software - Camada de Serviço_
+- [] 28-2: _Arquitetura web - Rest e Restful_
+- [] 28-3: _[Projeto - Store Manager]()_
 
 ##### Bloco 29: NodeJS
 
-- [X] 29-1: _NodeJS - JWT - (JSON Web Token)_
-- [X] 29-2: _NodeJS - Upload de arquivos com Multer_
+- [] 29-1: _NodeJS - JWT - (JSON Web Token)_
+- [] 29-2: _NodeJS - Upload de arquivos com Multer_
 - [ ] 29-3: _[Projeto - Cookmaster V2]()_
 
 ##### Bloco 30: Introdução - Deploy

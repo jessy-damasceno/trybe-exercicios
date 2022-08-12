@@ -70,11 +70,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
 - [X] 8-5: _[Projeto - Zoo functions](https://github.com/jessy-damasceno/zoo-functions)_
 
+## Desenvolvimento Front-end :hourglass_flowing_sand:
+
 ##### Bloco 9: JavaScript e Testes Assíncronos
 
 - [X] 9-1: _JavaScript Assíncrono e Callbacks_
 - [X] 9-2: _Fetch API e async/await_
-- [X] 9-3: _[Projeto - Carrinho de Compras](https://github.com/jessy-damasceno/shopping-cart)_
+- [X] 9-3: _Jest - Testes Assíncronos
+- [X] 9-4: _[Projeto - Carrinho de Compras](https://github.com/jessy-damasceno/shopping-cart)_
 
 ##### Bloco 10: Jest
 
@@ -82,8 +85,6 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 10-2: _Jest - Testes Assíncronos_
 - [X] 10-3: _Jest - Simulando comportamentos_
 - [X] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_
-
-## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 ##### Bloco 11: Introdução - React
 

@@ -79,24 +79,17 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 9-3: _Jest - Testes Assíncronos_
 - [X] 9-4: _[Projeto - Carrinho de Compras](https://github.com/jessy-damasceno/shopping-cart)_
 
-##### Bloco 10: Jest
-
-- [X] 10-1: _Primeiros passos no Jest_
-- [X] 10-2: _Jest - Testes Assíncronos_
-- [X] 10-3: _Jest - Simulando comportamentos_
-- [X] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_
-
-##### Bloco 11: Introdução - React
+##### Bloco 10: Introdução - React
 
 - [X] 11-1: _'Hello, world!' no React!_
 - [X] 11-2: _Componentes React_
-- [X] 11-3: _[Projeto - Movie Cards Library]()_
+- [X] 11-3: _[Projeto - Sistema Solar](https://github.com/jessy-damasceno/react-solar-system)_
 
-##### Bloco 12: React
+##### Bloco 11: Componentes com estado, Eventos e Formulários com React
 
-- [X] 12-1: _Components com estado_
-- [X] 12-2: _Eventos e formulários no React_
-- [X] 12-3: _[Projeto - Movie Cards Library Stateful]()_
+- [X] 12-1: _Components com estado e eventos_
+- [X] 12-2: _Formulários no React_
+- [X] 12-3: _[Projeto - Tryunfo]()_
 
 ##### Bloco 13: React
 
